@@ -95,7 +95,8 @@ form {
     margin: 40px 0;
 }
 
-form label, form legend {
+form label,
+form legend {
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
@@ -140,10 +141,12 @@ thead {
     font-weight: bold;
 }
 
-td, th {
+td,
+th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
+
 
 /*css da página incial*/
 
@@ -222,7 +225,6 @@ td, th {
 
 .itens::before {
     content: "★";
-
 }
 
 .itens:first-child {
